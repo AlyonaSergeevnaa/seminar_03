@@ -23,4 +23,6 @@ int b = y2 - y1;
 int c = z2 - z1;
 
 double length = Math.Sqrt(a * a + b * b + c * c);
+
+// double length = Math.Round(Math.Pow(Math.Pow(x2-x1, 2) + Math.Pow(y2-y1, 2) +( Math.Pow(z2-z1, 2)),0,5),3); 
 Console.WriteLine($"Расстояние = {length}");
