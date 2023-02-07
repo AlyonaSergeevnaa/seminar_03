@@ -20,7 +20,7 @@ int z2 = InputNumber("Введите координату z второй точ�
 
 int a = x2 - x1;
 int b = y2 - y1;
-int c = z1 - z2;
+int c = z2 - z1;
 
 double length = Math.Sqrt(a * a + b * b + c * c);
-Console.WriteLine($"Длинна отрезка {length}");
+Console.WriteLine($"Расстояние = {length}");
